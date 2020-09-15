@@ -1,0 +1,13 @@
+#Pede ao usuário para digitar uma senha e valida com a senha secreta
+#Cria uma variavel para guardar a senha
+senha_secreta = "123456"
+
+#Pedw para o uduario digitar sua senha
+senha = input("Informe a senha:")
+
+#Verifica se a senha do usuario esta correta
+if senha == senha_secreta:
+ print("Bem vindo Hackerman")
+
+if senha != senha_secreta:
+ print("Acesso ngegado!")
