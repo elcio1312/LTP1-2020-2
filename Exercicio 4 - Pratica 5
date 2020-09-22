@@ -1,0 +1,25 @@
+#Erxercicio 4 - Calculadora 4 operações basicas
+operação = input("Informe a operação desejada")
+
+if operação == "+":
+  valor1 = float(input("Valor 1:"))
+  valor2 = float(input('Valor 2:'))
+  resultado = valor1 + valor2
+  print(resultado)
+elif operação == "-":
+  valor1 = float(input("Valor 1:"))
+  valor2 = float(input('Valor 2:'))
+  resultado = valor1 - valor2
+  print(resultado)
+elif operação == "*":
+  valor1 = float(input("Valor 1:"))
+  valor2 = float(input('Valor 2:'))
+  resultado = valor1 * valor2
+elif operação == "/":
+  valor1 = float(input("Valor 1:"))
+  valor2 = float(input('Valor 2:'))
+  resultado = valor1 / valor2
+else:
+  print(resultado)
+else:
+  print("Operação invalida!")
