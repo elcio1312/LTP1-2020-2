@@ -1,0 +1,16 @@
+#Exercicio 1 - Aula 05
+#Lê 3 valores e encontra o maior, menor e a média deles.abs
+
+valor1 = int(input("Informe um valor"))
+valor2 = int(input("Informe um outro valor"))
+valor3 = int(input("Informe um 3 valor"))
+if valor1 > valor2 and valor1 > valor3:
+  maior = valor1
+elif valor2 >= valor1 and valor2 >= valor3:
+  maior = valor2
+else:
+  maior = valor3
+print ("maior valor", maior)
+media = (valor1 + valor2 + valor3) / 3
+print("valor medio", media)
+if valor1 <= valor2 and valor
